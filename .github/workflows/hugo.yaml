@@ -51,7 +51,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
         with:
-          enablement: true  # Ensure GitHub Pages is enabled
+          enablement: true
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # If necessary, use a PAT
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Cache Restore

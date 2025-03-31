@@ -9,4 +9,4 @@
 	url = https://github.com/tomowang/hugo-theme-tailwind.git
 [submodule "themes/hugograyscale"]
 	path = themes/hugograyscale
-	url = https://github.com/runningstream/hugograyscale.git
+	url = https://github.com/1090MHz/hugograyscale.git

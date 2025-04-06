@@ -1,0 +1,19 @@
+baseURL = "https://1090mhz.github.io/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugograyscale"
+
+disableKinds = ["taxonomy"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[Author]
+    name = "1090MHz"
+    email = "1090MHz@users.noreply.github.com"
+
+[params]
+  description = "This is the description of my Hugo site."
+  author = "1090MHz"
+
